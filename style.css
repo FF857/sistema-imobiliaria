@@ -1,0 +1,118 @@
+
+#imagem-logo{
+
+    width: 130px;
+    height: 130px;
+}
+
+
+/*tela-login.html*/
+#tela-login-body{
+
+    display: flex;
+    justify-content: center;
+
+    height: 80vh;
+    align-items: center;
+
+    background-color: rgb(0, 153, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#tela-login-body #container{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+
+    border-radius: 18px;
+    padding: 20px;
+}
+
+
+.input-login {
+
+    margin: 10px;
+    padding: 10px;
+
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 153, 255);
+
+    color: white;
+    font-size: 18px;
+    
+}
+
+button {
+
+    margin: 40px 0px 0px;
+
+}
+
+
+/*index.html*/
+.teme-body {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: rgb(0, 153, 255);
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#cabecalhoPrincipal #container {
+
+    background-color: white;
+
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navegacao {
+
+    width: 40%;
+    margin: 10px;
+
+    display: flex;
+    justify-content: space-around;
+}   
+
+.item-navegacao {
+
+    color: white;
+    background-color: rgb(0, 153, 255);
+ 
+    font-size: 28px;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.item-navegacao:hover {
+    
+    background-color: rgb(68, 143, 194);
+
+    transition: all 0.3s;
+
+}
+
+#backlog{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 90vh;
+}
