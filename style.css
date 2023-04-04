@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
 
-    height: 80vh;
+    height: 90vh;
     align-items: center;
 
     background-color: rgb(0, 153, 255);
@@ -28,7 +28,7 @@
     background-color: white;
 
     border-radius: 18px;
-    padding: 20px;
+    padding: 80px 60px;
 }
 
 
@@ -46,18 +46,40 @@
     
 }
 
+#container-button {
+
+    display: flex;
+    align-items: center;
+
+    height: 4vh;
+}
 #button {
 
-    padding: 15px;
-    font-size: 16px;
-    font-weight: bold;
+    padding: 16px 40px;
     margin: 40px 0px 0px;
+
+    font-size: 18px;
+    font-weight: bold;
+    
     color: white;
     background-color: rgb(0, 153, 255);
     border: none;
     border-radius: 10px;
 
 }
+
+#button:active {
+
+    padding: 14px 38px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+/*#button:active {
+
+    padding: 12px 36px;
+    font-size: 14px;
+    transition: all 0.3s;
+}*/
 
 /*index.html*/
 .teme-body {
