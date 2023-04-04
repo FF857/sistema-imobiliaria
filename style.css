@@ -46,12 +46,18 @@
     
 }
 
-button {
+#button {
 
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
     margin: 40px 0px 0px;
+    color: white;
+    background-color: rgb(0, 153, 255);
+    border: none;
+    border-radius: 10px;
 
 }
-
 
 /*index.html*/
 .teme-body {
